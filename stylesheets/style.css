@@ -29,12 +29,15 @@ body {
 
 .start-coding-button {
   background-color: black;
-  width: 160px;
+  width: 155px;
   height: 45px;
   font-size: 15px;
-  border-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%) 1/3px;
+  border-image: linear-gradient(45deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%) 1/3px;
   border-style: solid;
   border-radius: 3px; }
+  .start-coding-button:hover {
+    opacity: 0.5;
+    cursor: pointer; }
 
 .start-coding {
   text-align: center; }
@@ -42,8 +45,39 @@ body {
 .logo {
   text-align: center; }
 
+.sidebar-menu {
+  margin: 15px; }
+
 .start-coding-message {
   font-size: 12px;
   text-align: center;
   color: #b7bbc8;
   margin: 2px; }
+
+.sidebar-menu-list-explore {
+  color: #ffc800;
+  font-size: 12px; }
+
+.sidebar-menu-list-grow {
+  color: #47ff60;
+  font-size: 12px; }
+
+.sidebar-menu-list-companies {
+  color: #01befe;
+  font-size: 12px; }
+
+.list-other a {
+  color: #b7bbc8; }
+
+.mark {
+  background: #ffc800;
+  color: black;
+  border-radius: 3px;
+  font-size: 10px;
+  padding: 2px 3px;
+  margin-left: 3px; }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0; }
