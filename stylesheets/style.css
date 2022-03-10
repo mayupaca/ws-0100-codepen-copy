@@ -31,9 +31,14 @@ body {
   display: flex;
   align-items: center; }
 
-.search-bar {
-  display: flex;
-  align-items: center; }
+.search-form {
+  padding: 8px;
+  margin: 8px;
+  background: #1F1F26;
+  border-radius: 4px;
+  width: 100%; }
+  .search-form i {
+    font-size: 20px; }
 
 .start-coding-button {
   background-color: black;
@@ -51,41 +56,32 @@ body {
   text-align: center; }
 
 .header-buttons {
-  padding: 10px; }
+  padding: 8px; }
+  .header-buttons .button {
+    margin-right: 8px;
+    min-width: 100px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-align: center; }
 
-.signup-button {
-  color: black;
-  background-color: #47ff60;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-right: 10px;
-  font-size: 15px; }
+.button-primary {
+  background: #47ff60;
+  color: black; }
 
-.login-button {
-  color: white;
-  background-color: #414833;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 15px; }
+.button-secondary {
+  background: #1F1F26; }
 
 .logo {
   text-align: center; }
 
-.search-bar {
-  margin: 8px;
-  background-color: #1F1F26;
-  border-radius: 5px;
-  padding: 8px; }
-
-.search-bar-input {
+.search-form-input {
+  margin-left: 16px;
   width: 100%;
-  margin-left: 13px;
-  border: none;
-  background-color: #1F1F26;
   font-size: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+  background: #1F1F26;
+  border: 0; }
 
 .sidebar-menu {
   margin: 15px; }
