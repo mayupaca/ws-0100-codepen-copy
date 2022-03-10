@@ -83,10 +83,33 @@ body {
   padding: 8px 16px;
   text-align: center; }
 
-.code-card-html {
+.code-card-htlm {
   position: relative;
   left: 160px;
   bottom: 20px; }
+
+.code-card-scss {
+  position: relative;
+  left: 220px;
+  bottom: 20px; }
+
+.code-card-js {
+  position: relative;
+  left: 160px;
+  bottom: 20px; }
+
+.cursor {
+  animation: blink 1s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  51% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
 
 .code-card {
   margin-bottom: 8px;
@@ -114,6 +137,18 @@ body {
 
 .hilight-green {
   color: #74b087; }
+
+.hilight-purple {
+  color: #9f8198; }
+
+.hilight-blue {
+  color: #7a99ad; }
+
+.l-margin-left-2rem {
+  margin-left: 2rem !important; }
+
+.l-margin-left-4rem {
+  margin-left: 4rem !important; }
 
 .hero {
   margin: 32px; }
