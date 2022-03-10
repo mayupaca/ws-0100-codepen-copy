@@ -40,6 +40,9 @@ body {
   .search-form i {
     font-size: 20px; }
 
+.l-section {
+  margin: 32px 0; }
+
 .start-coding-button {
   background-color: black;
   width: 155px;
@@ -72,8 +75,38 @@ body {
 .button-secondary {
   background: #1F1F26; }
 
+.hero-footer .button {
+  width: 200px;
+  font-size: 1.4em;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center; }
+
+.hero {
+  margin: 32px; }
+  .hero .hero-body {
+    display: flex;
+    flex-wrap: wrap; }
+    .hero .hero-body .hero-body-description {
+      width: 50%;
+      padding: 32px; }
+
+.hero-body-description-title {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 900; }
+
+.hero-body-description-text {
+  font-size: 1.1rem; }
+  .hero-body-description-text .text-bold {
+    font-weight: bold; }
+
 .logo {
   text-align: center; }
+
+.hero-logo {
+  font-size: 36px; }
 
 .search-form-input {
   margin-left: 16px;
