@@ -9,6 +9,14 @@ body {
   margin: 0;
   background: #131417; }
 
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
 *, *:before, *:after {
   box-sizing: border-box;
   color: #FFFFFF; }
@@ -23,9 +31,7 @@ body {
   flex-wrap: wrap; }
 
 .sidebar {
-  background-color: #1F1F26;
-  width: 190px;
-  height: 100vh; }
+  min-width: 188px; }
 
 .l-header {
   display: flex;
@@ -43,45 +49,46 @@ body {
 .l-section {
   margin: 32px 0; }
 
-.start-coding-button {
-  background-color: black;
-  width: 155px;
-  height: 45px;
-  font-size: 15px;
-  border-image: linear-gradient(45deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%) 1/3px;
-  border-style: solid;
-  border-radius: 3px; }
-  .start-coding-button:hover {
-    opacity: 0.5;
+.badge {
+  background: #ffc800;
+  border-radius: 4px;
+  margin-left: 4px;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 4px; }
+
+.button {
+  display: inline-block;
+  border: 3px solid #aaaebc;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center; }
+  .button:hover {
+    opacity: .4;
     cursor: pointer; }
 
-.start-coding {
-  text-align: center; }
+.button-logo {
+  margin: 0 16px;
+  border: 3px solid transparent;
+  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  width: 154px;
+  padding: 0; }
 
-.header-buttons {
-  padding: 8px; }
-  .header-buttons .button {
-    margin-right: 8px;
-    min-width: 100px;
-    display: inline-block;
-    border-radius: 4px;
-    padding: 8px 16px;
-    text-align: center; }
+.button-logo-text {
+  display: block;
+  background: black;
+  padding: 8px;
+  width: 100%; }
 
 .button-primary {
+  border: 0;
   background: #47ff60;
   color: black; }
 
 .button-secondary {
-  background: #1F1F26; }
-
-.hero-footer .button {
-  width: 200px;
-  font-size: 1.4em;
-  display: inline-block;
-  border-radius: 4px;
-  padding: 8px 16px;
-  text-align: center; }
+  border: 0;
+  background: #4c4f5a; }
 
 .code-card-htlm {
   position: relative;
@@ -213,7 +220,15 @@ body {
   height: 410px;
   background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%); }
 
-.logo {
+.hero-footer .button {
+  width: 200px;
+  font-size: 1.4em; }
+
+.header-buttons .button {
+  margin-right: 8px;
+  min-width: 100px; }
+
+.codepen-logo {
   text-align: center; }
 
 .hero-logo {
@@ -227,49 +242,45 @@ body {
   background: #1F1F26;
   border: 0; }
 
-.sidebar-menu {
-  margin: 15px; }
+.sidebar {
+  background: #1F1F26; }
 
-.start-coding-message {
-  font-size: 12px;
+.get-start-text {
+  margin: 0.2em;
+  font-size: .8em;
   text-align: center;
-  color: #b7bbc8;
-  margin: 2px; }
-
-.sidebar-menu-list-explore {
-  color: #ffc800;
-  font-size: 12px; }
-
-.sidebar-menu-list-grow {
-  color: #47ff60;
-  font-size: 12px; }
-
-.sidebar-menu-list-companies {
-  color: #01befe;
-  font-size: 12px; }
-
-.list-other a {
   color: #b7bbc8; }
 
-.mark {
-  background: #ffc800;
-  color: black;
-  border-radius: 3px;
-  font-size: 10px;
-  padding: 2px 3px;
-  margin-left: 3px; }
+ul .sidebar-menu-sub-list {
+  margin-bottom: 16px; }
 
-ul {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 0; }
+.sidebar-menu-title {
+  font-size: .8rem;
+  margin-bottom: 0.2rem;
+  margin-left: 16px; }
+
+.sidebar-menu a {
+  display: block;
+  padding-left: 16px; }
+  .sidebar-menu a:hover {
+    background: black;
+    cursor: pointer; }
 
 .code-card-title-text {
   margin: 0;
   margin-left: 8px; }
 
 .text-accent {
-  color: #0ebeff; }
+  color: #01befe; }
 
 .text-bold {
   font-weight: bold; }
+
+.text-warning {
+  color: #ffc800; }
+
+.text-primary {
+  color: #47ff60; }
+
+.text-weak {
+  color: #b7bbc8; }
