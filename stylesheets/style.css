@@ -253,6 +253,22 @@ a {
 .card-footer {
   margin: 16px 0; }
 
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  background: black; }
+
+.footer-links h4 {
+  margin: 2px;
+  margin-right: 1rem; }
+
+.footer-links li {
+  margin-right: 1rem; }
+
+.footer-logo {
+  font-size: 2rem; }
+
 .hero {
   margin: 32px; }
   .hero .hero-body {
