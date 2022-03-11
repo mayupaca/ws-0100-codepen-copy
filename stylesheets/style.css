@@ -150,6 +150,40 @@ body {
 .l-margin-left-4rem {
   margin-left: 4rem !important; }
 
+.features {
+  justify-content: center; }
+  .features .card {
+    height: 340px; }
+
+.card {
+  padding: 2rem;
+  width: 360px;
+  border-radius: 6px;
+  background: #1F1F26; }
+
+.features-card {
+  margin: 2rem 1rem; }
+
+.card-icon {
+  background: black;
+  position: relative;
+  left: 16px;
+  top: 32px;
+  height: 64px;
+  width: 64px;
+  border-radius: 6px;
+  text-align: center; }
+  .card-icon .fa {
+    font-size: 48px;
+    position: relative;
+    top: 8px; }
+
+.card-description {
+  color: #b7bbc8; }
+
+.card-footer {
+  margin: 16px 0; }
+
 .hero {
   margin: 32px; }
   .hero .hero-body {
@@ -233,3 +267,9 @@ ul {
 .code-card-title-text {
   margin: 0;
   margin-left: 8px; }
+
+.text-accent {
+  color: #0ebeff; }
+
+.text-bold {
+  font-weight: bold; }
