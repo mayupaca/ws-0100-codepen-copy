@@ -134,6 +134,10 @@ a {
   border-radius: 4px;
   background: #1F1F26;
   transition: .2s; }
+  .product-item-card:hover {
+    transform: scale(1.05);
+    opacity: .4;
+    cursor: pointer; }
 
 .product-item-card-image {
   width: 350px;
