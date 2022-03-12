@@ -30,24 +30,18 @@ a {
 .l-flex-wrap {
   flex-wrap: wrap; }
 
-.sidebar {
-  min-width: 188px; }
-
 .l-header {
   display: flex;
   align-items: center; }
 
-.search-form {
-  padding: 8px;
-  margin: 8px;
-  background: #1F1F26;
-  border-radius: 4px;
-  width: 100%; }
-  .search-form i {
-    font-size: 20px; }
-
 .l-section {
   margin: 32px 0; }
+
+.l-margin-left-2rem {
+  margin-left: 2rem !important; }
+
+.l-margin-left-4rem {
+  margin-left: 4rem !important; }
 
 .badge {
   background: #ffc800;
@@ -63,7 +57,9 @@ a {
   border: 3px solid #aaaebc;
   border-radius: 4px;
   padding: 8px 16px;
-  text-align: center; }
+  text-align: center;
+  margin-right: 8px;
+  min-width: 100px; }
   .button:hover {
     opacity: .4;
     cursor: pointer; }
@@ -90,21 +86,6 @@ a {
   border: 0;
   background: #4c4f5a; }
 
-.code-card-htlm {
-  position: relative;
-  left: 160px;
-  bottom: 20px; }
-
-.code-card-scss {
-  position: relative;
-  left: 220px;
-  bottom: 20px; }
-
-.code-card-js {
-  position: relative;
-  left: 160px;
-  bottom: 20px; }
-
 .cursor {
   animation: blink 1s infinite; }
 
@@ -117,6 +98,48 @@ a {
     opacity: 1; }
   100% {
     opacity: 1; } }
+
+.card {
+  padding: 2rem;
+  width: 360px;
+  border-radius: 6px;
+  background: #1F1F26;
+  height: 340px; }
+
+.card-icon {
+  background: black;
+  position: relative;
+  left: 16px;
+  top: 32px;
+  height: 64px;
+  width: 64px;
+  border-radius: 6px;
+  text-align: center; }
+  .card-icon .fa {
+    font-size: 48px;
+    position: relative;
+    top: 8px; }
+
+.card-description {
+  color: #b7bbc8; }
+
+.card-footer {
+  margin: 16px 0; }
+
+.hilight-orange {
+  color: #a88038; }
+
+.hilight-beige {
+  color: #e1ca72; }
+
+.hilight-green {
+  color: #74b087; }
+
+.hilight-purple {
+  color: #9f8198; }
+
+.hilight-blue {
+  color: #7a99ad; }
 
 .product-item-row {
   justify-content: center; }
@@ -202,60 +225,26 @@ a {
   .code-card-body p {
     margin: 0; }
 
-.hilight-orange {
-  color: #a88038; }
+.code-card-htlm {
+  position: relative;
+  left: 160px;
+  bottom: 20px; }
 
-.hilight-beige {
-  color: #e1ca72; }
+.code-card-scss {
+  position: relative;
+  left: 220px;
+  bottom: 20px; }
 
-.hilight-green {
-  color: #74b087; }
-
-.hilight-purple {
-  color: #9f8198; }
-
-.hilight-blue {
-  color: #7a99ad; }
-
-.l-margin-left-2rem {
-  margin-left: 2rem !important; }
-
-.l-margin-left-4rem {
-  margin-left: 4rem !important; }
+.code-card-js {
+  position: relative;
+  left: 160px;
+  bottom: 20px; }
 
 .features {
   justify-content: center; }
-  .features .card {
-    height: 340px; }
-
-.card {
-  padding: 2rem;
-  width: 360px;
-  border-radius: 6px;
-  background: #1F1F26; }
 
 .features-card {
   margin: 2rem 1rem; }
-
-.card-icon {
-  background: black;
-  position: relative;
-  left: 16px;
-  top: 32px;
-  height: 64px;
-  width: 64px;
-  border-radius: 6px;
-  text-align: center; }
-  .card-icon .fa {
-    font-size: 48px;
-    position: relative;
-    top: 8px; }
-
-.card-description {
-  color: #b7bbc8; }
-
-.card-footer {
-  margin: 16px 0; }
 
 .footer {
   justify-content: space-between;
@@ -269,9 +258,6 @@ a {
 
 .footer-links li {
   margin-right: 1rem; }
-
-.footer-logo {
-  font-size: 2rem; }
 
 .hero {
   margin: 32px; }
@@ -289,8 +275,6 @@ a {
 
 .hero-body-description-text {
   font-size: 1.1rem; }
-  .hero-body-description-text .text-bold {
-    font-weight: bold; }
 
 .hero-body-image {
   width: 50%; }
@@ -306,15 +290,14 @@ a {
   width: 200px;
   font-size: 1.4em; }
 
-.header-buttons .button {
-  margin-right: 8px;
-  min-width: 100px; }
-
 .codepen-logo {
   text-align: center; }
 
 .hero-logo {
   font-size: 36px; }
+
+.footer-logo {
+  font-size: 2rem; }
 
 .search-form-input {
   margin-left: 16px;
@@ -323,6 +306,15 @@ a {
   font-weight: bold;
   background: #1F1F26;
   border: 0; }
+
+.search-form {
+  padding: 8px;
+  margin: 8px;
+  background: #1F1F26;
+  border-radius: 4px;
+  width: 100%; }
+  .search-form i {
+    font-size: 20px; }
 
 .sidebar {
   background: #1F1F26; }
@@ -333,7 +325,7 @@ a {
   text-align: center;
   color: #b7bbc8; }
 
-ul .sidebar-menu-sub-list {
+.sidebar-menu-sub-list {
   margin-bottom: 16px; }
 
 .sidebar-menu-title {
@@ -347,6 +339,9 @@ ul .sidebar-menu-sub-list {
   .sidebar-menu a:hover {
     background: black;
     cursor: pointer; }
+
+.sidebar {
+  min-width: 188px; }
 
 .code-card-title-text {
   margin: 0;
